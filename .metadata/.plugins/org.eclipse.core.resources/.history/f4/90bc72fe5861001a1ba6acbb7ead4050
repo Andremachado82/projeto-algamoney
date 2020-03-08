@@ -1,0 +1,5 @@
+package com.algamoney.api.repository;
+
+public interface CategoriaRepository {
+
+}
