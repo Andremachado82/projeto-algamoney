@@ -18,7 +18,7 @@ public class Categoria {
 	private Long codigo;
 	
 	@NotNull
-	@Size(min=1, max=16)
+	@Size(min=3, max=16)
 	private String nome;
 
 	public Long getCodigo() {
