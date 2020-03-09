@@ -1,6 +1,5 @@
 package com.algamoney.api.model;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -18,7 +17,6 @@ public class Categoria {
 	private Long codigo;
 	
 	@NotNull
-	@Size(min=1, max=16)
 	private String nome;
 
 	public Long getCodigo() {
