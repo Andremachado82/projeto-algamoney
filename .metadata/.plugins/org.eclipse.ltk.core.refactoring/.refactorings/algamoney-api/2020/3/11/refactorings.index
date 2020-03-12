@@ -13,3 +13,4 @@
 1583779319290	Delete element
 1583782189651	Delete element
 1583904749830	Extract method 'adicionarHeaderLocation'
+1583948726603	Extract method 'buscarPessoaPeloCodigo'
