@@ -14,28 +14,27 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Bean
-    @Override
+	@Override    
     public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
-    }
+    }	
 	
 	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {		
 		auth.inMemoryAuthentication()
-			.withUser("admin").password("admin").roles("ROLE");
+			.withUser("admin").password("{noop}admin").roles("ROLE");
 	}
 	 
 	@Override
-	protected void configure(HttpSecurity http) throws Exception {
+	protected  void configure(HttpSecurity http) throws Exception {
 		
 		http.authorizeRequests()
 				.antMatchers("/categorias").permitAll()
 				.anyRequest().authenticated()
-			.and().httpBasic()
-			.and().sessionManagement()
+				.and()
+				.sessionManagement()
 				.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
-			.and().csrf()
-				.disable();
+				.and().csrf()
+				.disable();  
 	}
 }

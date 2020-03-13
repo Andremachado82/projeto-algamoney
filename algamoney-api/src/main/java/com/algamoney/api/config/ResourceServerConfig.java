@@ -13,34 +13,27 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 @Configuration
 @EnableWebSecurity
 @EnableResourceServer
-public class ResourceServerConfig extends ResourceServerConfigurerAdapter{
-	
-	
+public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
+		
 	@Autowired
-	public void configure(AuthenticationManagerBuilder auth) throws Exception {
+	public void configure(AuthenticationManagerBuilder auth) throws Exception {		
 		auth.inMemoryAuthentication()
-			.withUser("admin").password("admin").roles("ROLE");		
+			.withUser("admin").password("admin").roles("ROLE");
 	}
-	
+	  
 	@Override
-	public void configure(HttpSecurity http) throws Exception {
+	public  void configure(HttpSecurity http) throws Exception {
+		
 		http.authorizeRequests()
 				.antMatchers("/categorias").permitAll()
 				.anyRequest().authenticated()
 				.and()
 			.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
 			.csrf().disable();
-			
-		super.configure(http);
 	}
 	
 	@Override
-	public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
-		resources.stateless(true);
-	}
+		public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
+			resources.stateless(true);
+		}
 }
-
-
-
-
-

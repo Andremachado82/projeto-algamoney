@@ -13,24 +13,32 @@ import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenCo
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
 
+
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
 	
+	
 	@Autowired
 	private AuthenticationManager authenticationManager;
-
+	
+	
 	@Override
 	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
-		clients.inMemory().withClient("client").authorizedGrantTypes("password").secret("secret")
-				.scopes("read", "write").accessTokenValiditySeconds(1800).refreshTokenValiditySeconds(3600 * 24);
+		clients.inMemory()
+			.withClient("angular")
+			.authorizedGrantTypes("password")
+			.secret("{noop}@angular")
+			.scopes("read", "write").accessTokenValiditySeconds(1800).refreshTokenValiditySeconds(3600 * 24);
 	}
 
 	@Override
 	public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
-		endpoints.tokenStore(tokenStore()).accessTokenConverter(accessTokenConverter())
-				.reuseRefreshTokens(false)
-				.authenticationManager(authenticationManager);
+		endpoints
+			.tokenStore(tokenStore())
+			.accessTokenConverter(accessTokenConverter())
+			.reuseRefreshTokens(false)
+			.authenticationManager(authenticationManager);
 	}
 
 	@Bean
