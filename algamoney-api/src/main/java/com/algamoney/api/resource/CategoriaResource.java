@@ -47,7 +47,7 @@ public class CategoriaResource {
 		
 		return ResponseEntity.status(HttpStatus.CREATED).body(categoriaSalva);
 		
-	}
+	} 
 	
 //	lista categoria por código
 	@GetMapping("/{codigo}")
