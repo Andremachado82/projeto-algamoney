@@ -7,16 +7,26 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
+ 
 @Configuration
 @EnableWebSecurity
 public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
 	
+//	@Autowired
+//	private UserDetailsService userDetailsService;	
+	
+//	@Autowired	
+//	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+//			auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
+//	}
+//	
 	@Bean
 	@Override
 	public AuthenticationManager authenticationManager() throws Exception {
 	    return super.authenticationManager();
 	}
+	
+	
 
 	@Bean
 	public PasswordEncoder passwordEncoder() {
@@ -24,3 +34,5 @@ public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
 	    return new BCryptPasswordEncoder();
 	}
 }
+
+
