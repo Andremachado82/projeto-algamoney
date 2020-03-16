@@ -3,7 +3,6 @@ package com.algamoney.api.repository.projection;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import com.algamoney.api.model.Pessoa;
 import com.algamoney.api.model.TipoLancamento;
 
 public class ResumoLancamento {
