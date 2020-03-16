@@ -1479,3 +1479,108 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:27:42.547
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:36:43.373
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:36:56.163
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:37:42.881
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:39:57.463
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:40:53.195
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:40:58.730
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:42:06.039
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:42:13.199
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:43:28.732
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:04.355
+!MESSAGE Preparing classpath changed notification algamoney-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:04.356
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:04.361
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:04.363
+!MESSAGE buffering callback sts4.classpath.sIywCkFS algamoney-api false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:04.363
+!MESSAGE executing callback sts4.classpath.sIywCkFS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:04.389
+!MESSAGE executing callback sts4.classpath.sIywCkFS SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:44:04.764
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:44:05.249
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:06.956
+!MESSAGE Preparing classpath changed notification algamoney-api
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:06.957
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:06.962
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:06.963
+!MESSAGE buffering callback sts4.classpath.sIywCkFS algamoney-api false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:06.963
+!MESSAGE executing callback sts4.classpath.sIywCkFS 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-03-16 09:44:06.989
+!MESSAGE executing callback sts4.classpath.sIywCkFS SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:47:40.682
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:54:39.417
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:55:01.630
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:55:05.355
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:55:32.390
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:56:40.922
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:57:00.019
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 09:57:05.589
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 10:00:16.941
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 10:01:28.275
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 10:03:19.740
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2020-03-16 10:03:44.526
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.12.Final
